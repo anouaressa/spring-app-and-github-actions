@@ -42,7 +42,7 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/spring-Student-management
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/spring-app-and-github-actions
 
 
         
